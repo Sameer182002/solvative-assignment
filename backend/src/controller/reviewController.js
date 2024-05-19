@@ -38,6 +38,7 @@ exports.getAllReviews = async(req,res)=>{
     const activity = 'Get All Reviews |'
     const {reviewId=''} = req?.query || {}
     try{
+        console.log(activity)
         if(reviewId && !isValidObjectId(reviewId)){
             console.log(`${activity} | Review id must be present and should be valid for get review`,{reviewId})
             return res.status(400).send({status:false,message:`Review id must be present and should be valid for get review`})
