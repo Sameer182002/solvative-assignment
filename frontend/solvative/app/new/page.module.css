@@ -1,0 +1,27 @@
+
+.input{
+    width: 40%;
+    height: 2rem;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.textarea{
+    resize: none;
+    border-radius: 6px;
+    width: 40%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.ButtonWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}

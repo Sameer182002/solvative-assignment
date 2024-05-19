@@ -1,0 +1,29 @@
+.row{
+    display: flex;
+}
+.row>p{
+    margin: 0;
+    padding: 0.5rem;
+    border-right: 1px solid grey;
+    flex: 1;
+    flex-shrink: 0;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.row:first-child{
+    border-top: 1px solid grey;
+    background-color: navy;
+    position: sticky;
+    top: 0;
+}
+.row:first-child>p{
+    color: #fff;
+    font-weight: 500;
+}
+.row>p:first-child{
+    border-left: 1px solid grey;
+}
+.wrapper{
+    width: 80%;
+    margin-top: 2rem;
+}
