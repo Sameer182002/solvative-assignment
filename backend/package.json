@@ -1,0 +1,27 @@
+{
+  "name": "live-reviews",
+  "version": "1.0.0",
+  "description": "solvative-assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameerbajaj18/solvative-assignment.git"
+  },
+  "author": "sameer182002",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameerbajaj18/solvative-assignment/issues"
+  },
+  "homepage": "https://github.com/sameerbajaj18/solvative-assignment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0",
+    "ws": "^8.17.0"
+  }
+}
